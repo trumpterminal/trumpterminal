@@ -1,9 +1,10 @@
 # Trump Terminal 🎮
-
+## Powered By AI16Z
 An interactive terminal interface styled after Trump's persona, featuring real-time chat, glitch effects, and retro pixel art aesthetics.
 
 ## ✨ Features
 
+- 🦾 Using AI16Z
 - 🤖 Trump-style AI responses using GPT
 - 📺 Retro terminal UI with glitch effects
 - 🎨 Pixel art animations
@@ -89,9 +90,3 @@ MIT License - see the [LICENSE](LICENSE) file for details
 3. Commit your changes (`git commit -m 'Add some AmazingFeature'`)
 4. Push to the branch (`git push origin feature/AmazingFeature`)
 5. Open a Pull Request
-
-## 🙏 Acknowledgments
-
-- Inspired by retro terminals and Trump's unique speaking style
-- Built with Next.js and the amazing React community
-- Special thanks to OpenAI for the GPT API
