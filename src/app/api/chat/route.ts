@@ -11,7 +11,7 @@ export async function POST(request: Request) {
     const { messages } = await request.json() as ChatRequest;
 
     const completion = await openai.chat.completions.create({
-      model: 'gpt-3.5-turbo',
+      model: 'GPT-4o',
       messages: messages.map(message => ({
         role: message.role,
         content: message.content,
