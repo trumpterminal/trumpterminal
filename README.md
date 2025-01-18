@@ -1,36 +1,97 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# Trump Terminal 🎮
 
-## Getting Started
+An interactive terminal interface styled after Trump's persona, featuring real-time chat, glitch effects, and retro pixel art aesthetics.
 
-First, run the development server:
+## ✨ Features
 
+- 🤖 Trump-style AI responses using GPT
+- 📺 Retro terminal UI with glitch effects
+- 🎨 Pixel art animations
+- 💾 Local storage for chat history
+- 🌟 Real-time typing effects
+- 🎮 Interactive social media links
+
+## 🚀 Quick Start
+
+1. **Clone and Install**
 ```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
+git clone https://github.com/trumpterminal/trumpterminal.git
+cd trumpterminal
+npm install
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+2. **Set up Environment Variables**
+```bash
+# Create a .env.local file and add:
+OPENAI_API_KEY=your_api_key_here
+```
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+3. **Run Development Server**
+```bash
+npm run dev
+```
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+4. Open [http://localhost:3000](http://localhost:3000)
 
-## Learn More
+## 🛠️ Built With
 
-To learn more about Next.js, take a look at the following resources:
+- [Next.js 14](https://nextjs.org/)
+- [TypeScript](https://www.typescriptlang.org/)
+- [Tailwind CSS](https://tailwindcss.com/)
+- [OpenAI API](https://openai.com/api/)
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+## 📦 Project Structure
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+```
+trump-terminal/
+├── components/
+│   ├── PixelTitle.tsx
+│   ├── TrumpTerminal.tsx
+│   ├── PixelSocials.tsx
+│   └── GlitchTextBox.tsx
+├── app/
+│   ├── api/
+│   │   └── chat/
+│   │       └── route.ts
+│   ├── layout.tsx
+│   └── page.tsx
+├── types/
+│   └── types.ts
+└── styles/
+    └── globals.css
+```
 
-## Deploy on Vercel
+## 🎨 Features in Detail
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+- **Retro Terminal**: Custom-built terminal interface with pixel-perfect styling
+- **AI Integration**: Real-time chat with Trump-persona AI responses
+- **Glitch Effects**: Custom animations and glitch effects throughout the UI
+- **Persistent Storage**: Chat history saved in localStorage
+- **Responsive Design**: Works on all screen sizes
+- **Custom Components**: Pixel art social media icons with glitch effects
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+## 🔧 Configuration
+
+You can customize various aspects of the terminal:
+- Modify the system prompt in `TrumpTerminal.tsx`
+- Adjust glitch effect timing in `globals.css`
+- Change color schemes in Tailwind configuration
+- Update social media links in `PixelSocials.tsx`
+
+## 📝 License
+
+MIT License - see the [LICENSE](LICENSE) file for details
+
+## 🤝 Contributing
+
+1. Fork the repository
+2. Create your feature branch (`git checkout -b feature/AmazingFeature`)
+3. Commit your changes (`git commit -m 'Add some AmazingFeature'`)
+4. Push to the branch (`git push origin feature/AmazingFeature`)
+5. Open a Pull Request
+
+## 🙏 Acknowledgments
+
+- Inspired by retro terminals and Trump's unique speaking style
+- Built with Next.js and the amazing React community
+- Special thanks to OpenAI for the GPT API
